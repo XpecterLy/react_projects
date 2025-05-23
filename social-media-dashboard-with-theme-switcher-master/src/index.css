@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: "Inter";
+    src: url('./assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@theme {
+    --color-Lime-Green: hsl(163, 72%, 41%);
+    --color-Bright-Red: hsl(356, 69%, 56%);
+
+    --color-Facebook: hsl(208, 92%, 53%);
+    --color-Twitter: hsl(203, 89%, 53%);
+    --color-YouTube: hsl(348, 97%, 39%);
+
+    --color-Toggle: hsl(230, 22%, 74%);
+
+    --color-Very-Dark-Blue: hsl(230, 17%, 14%);
+    --color-Very-Dark-Blue: hsl(232, 19%, 15%);
+    --color-Dark-Desaturated-Blue: hsl(228, 28%, 20%);
+    --color-Desaturated-Blue: hsl(228, 34%, 66%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Very-Pale-Blue: hsl(225, 100%, 98%);
+    --color-Light-Grayish-Blue: hsl(227, 47%, 96%);
+    --color-Dark-Grayish-Blue: hsl(228, 12%, 44%);
+    --color-Dark-Blue: hsl(230, 17%, 14%);
+
+
+    --font-inter: 'Inter';
+}
